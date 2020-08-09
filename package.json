@@ -1,0 +1,17 @@
+{
+  "name": "twitch-chat-discord-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.5.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "LockDzn",
+  "license": "ISC"
+}
