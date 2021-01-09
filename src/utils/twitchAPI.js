@@ -3,7 +3,7 @@ const axios = require('axios');
 const twitchNewAPI = axios.create({
     baseURL: 'https://api.twitch.tv/helix',
     headers: {
-      Authorization: `Bearer ${process.env.AUTHORIZATION}`,
+      Authorization: `Bearer ${process.env.TWITCH_AUTHORIZATION}`,
       'Client-ID': process.env.TWITCH_CLIENT_ID
     },
 });
